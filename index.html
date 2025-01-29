@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funnel</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="first-fold">
+        <div class="container">
+            <div class="text-content">
+                <h1>Achieve Your Dream Figure with Quick and Effective Workouts.</h1>
+                <p>Take this 30-second quiz to find out how</p>
+                <div class="buttons">
+                    <a href="#">&#x2640; Women Start Here</a>
+                    <a href="#">&#x2642; Men Start Here</a>
+                </div>
+            </div>
+            <div class="image-container">
+            </div>
+        </div>
+
+        <div class="logos">
+            <div class="logos-img">   
+                <img src="C:\Users\WeTrackAds\Downloads\WH Logo.svg" alt="Women's Health">
+            </div>
+                <div class="logos-img"> 
+                    <img src="C:\Users\WeTrackAds\Downloads\Vector.svg" alt="Forbes">
+                </div>
+                <div class="logos-img"> 
+                    <img src="file:///C:/Users/WeTrackAds/Downloads/Frame.svg" alt="Mayo Clinic">
+                </div>
+                <div class="logos-img"> 
+                    <img src="C:\Users\WeTrackAds\Downloads\Vector (1).png" alt="Wall Street Journal">
+                </div>
+                <div class="logos-img"> 
+                    <img src="file:///C:/Users/WeTrackAds/Downloads/layer1.svg" alt="Vogue">
+                </div>
+        </div>
+    </div>
+  
+    <div class="form-section">
+        <div class="form-container" id="formContainer">
+            <h2>Achieve Your Dream Figure with Quick and Effective Workouts.</h2>
+            <div class="progress-bar">
+                <div class="progress" id="progress"></div>
+            </div>
+    
+            <div id="error-message" class="error-message" style="display: none;">
+                Please select at least one option before proceeding.
+            </div>
+    
+            <form id="multiStepForm">
+                <div class="form-step active">
+                    <h3>Do you think hours of cardio is beneficial for fat loss?</h3>
+                    <p>(Many people think doing cardio every day is the answer.)</p>
+                    <label class="form-option">
+                        <input type="radio" name="step1" value="yes">
+                        <span>Yes</span>
+                    </label>
+                    <label class="form-option">
+                        <input type="radio" name="step1" value="no">
+                        <span>No</span>
+                    </label>
+                    <label class="form-option">
+                        <input type="radio" name="step1" value="not-sure">
+                        <span>Not Sure</span>
+                    </label>
+                </div>
+    
+                <div class="form-step">
+                    <h3>If there was a 7-minute routine to get you fit, would you add it to your daily routine?</h3>
+                    <label class="form-option">
+                        <input type="radio" name="step2" value="definitely">
+                        <span>Definitely</span>
+                    </label>
+                    <label class="form-option">
+                        <input type="radio" name="step2" value="maybe">
+                        <span>Maybe</span>
+                    </label>
+                    <label class="form-option">
+                        <input type="radio" name="step2" value="not-sure">
+                        <span>Not Sure</span>
+                    </label>
+                </div>
+    
+                <div class="form-step">
+                    <h3>How often do you currently exercise?</h3>
+                    <label class="form-option">
+                        <input type="radio" name="step3" value="every-day">
+                        <span>Every Day</span>
+                    </label>
+                    <label class="form-option">
+                        <input type="radio" name="step3" value="few-times">
+                        <span>A Few Times a Week</span>
+                    </label>
+                    <label class="form-option">
+                        <input type="radio" name="step3" value="rarely">
+                        <span>Rarely</span>
+                    </label>
+                </div>
+    
+                <div class="form-step">
+                    <h3>What is your main fitness goal?</h3>
+                    <label class="form-option">
+                        <input type="radio" name="step4" value="lose-weight">
+                        <span>Lose Weight</span>
+                    </label>
+                    <label class="form-option">
+                        <input type="radio" name="step4" value="tone-up">
+                        <span>Tone Up</span>
+                    </label>
+                    <label class="form-option">
+                        <input type="radio" name="step4" value="build-muscle">
+                        <span>Build Muscle</span>
+                    </label>
+                </div>
+    
+                <div class="form-step">
+                    <h3>How soon do you want to see results?</h3>
+                    <label class="form-option">
+                        <input type="radio" name="step5" value="immediately">
+                        <span>Immediately</span>
+                    </label>
+                    <label class="form-option">
+                        <input type="radio" name="step5" value="few-weeks">
+                        <span>In a Few Weeks</span>
+                    </label>
+                    <label class="form-option">
+                        <input type="radio" name="step5" value="long-term">
+                        <span>Long-Term Progress</span>
+                    </label>
+                </div>
+            </form>
+    
+            <div class="form-navigation">
+                <button class="nav-button" id="prevBtn">&#8592;</button>
+                <span class="page-indicator" id="pageIndicator">1/5</span>
+                <button class="nav-button" id="nextBtn">&#8594;</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="progress-section">
+        <div class="progress-content">
+            <h2>Achieve Your Dream Figure with Quick and Effective Workouts.</h2>
+            <p>Please wait while we match you with the best routine for maximum fat loss...</p>
+            <div class="progress-circle">
+                <span class="percentage">67%</span>
+            </div>
+        </div>
+        <div class="progress-image">
+            <img src="file:///C:/Users/WeTrackAds/Downloads/woman.svg" alt="Fitness Model Sitting">
+        </div>
+    </div>
+    
+    <div class="final-section">
+        <div class="final-container">
+            <h2>Achieve Your Dream Figure with Quick and Effective Workouts.</h2>
+            <h3>Great News</h3>
+            <p>Your ideal fat-burning routine has been calculated!</p>
+            <p>Based on your answers, we’ve identified one simple method that you can start doing TODAY to help maximize results in minimal time.</p>
+            <p>Don’t worry... it doesn’t require long hours in the gym, running miles on a treadmill, or some super intense cardio workout.</p>
+            <p>Instead, this little-known “S.I.T. routine” can be done from the convenience of home, using your body’s own resistance, in just 7-minutes a day.</p>
+            <p>But here’s the kicker: The special, hyper-focused movements have the potential to burn fat hours later, even while you sleep!</p>
+            <p>In the free presentation below, world-renowned nutrition, fitness, and weight-loss expert, Meredith Shirk, explains it all.</p>
+            <p>Discover the virtually foolproof way to finally melt off stubborn fat, regardless of your age or activity level, revealing a thinner, leaner, more toned body that you’ll absolutely LOVE!</p>
+            <p>(This major metabolic breakthrough has already helped thousands of women get the body of their dreams... and you could be next.)</p>
+            <button class="cta-button">Watch Presentation Now</button>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="footer-row">
+            <p>&copy; 2024 Cool Company, All Rights Reserved</p>
+            <ul class="footer-links">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <p>Content, images, and assets on this site may not be reproduced, transmitted, cached, distributed, or used in any way without prior written consent. This site does not offer professional medical advice or services. The ideas, procedures, and suggestions provided here are not a substitute for consulting your physician and should be used only as part of planning your overall health and fitness plan with medical supervision. Our Terms of Service limit liability, and you must read and agree to them before using this site. This information is not intended to diagnose, treat, cure, or prevent any disease. Your results may differ from any claims or testimonials. Typical results are not guaranteed; most people do not achieve results because they do not take consistent action. The examples shown are of individuals who made lifestyle changes and are not typical. Achieving results requires commitment and adherence to a plan.</p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    
